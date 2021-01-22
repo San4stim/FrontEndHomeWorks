@@ -1,0 +1,53 @@
+blockquote
+    {
+    height: auto;
+    min-height: 370px;
+    background-image: url(../images/stethem.jpg);
+    background-color: #c7b39b;
+    font-size: 150%;
+    font-weight: lighter;
+    text-align:left;
+    display: flex;
+    align-items: flex-end;
+    color: red;
+    }
+
+a[href^='http']
+    {
+	color: red;
+    }
+
+.list > li:last-child
+    {
+    background: green;
+    }
+
+#greycol
+    {
+	color: grey;
+    }
+
+.yellow
+    {
+	color: yellow;
+    }
+
+ul + p
+    {
+	font-size: 26px;
+    }
+
+.text-box > h3:first-child
+    {
+    color: pink;
+    }
+
+.text-box >div:nth-child(5)
+    {
+	color: red;
+    }
+
+.text-box > p:nth-child(7)
+    {
+    color: green;
+    }
